@@ -23,3 +23,8 @@ jobs:
           echo ${{ github.repository }}
           echo ${{ github.ref }}
           ls -la ./
+
+      - name: Checkout repo
+        run: |
+          cd repo
+          ls -la ./

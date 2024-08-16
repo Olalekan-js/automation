@@ -22,7 +22,7 @@ jobs:
           git clone https://github.com/${{ github.repository }} repo
           echo ${{ github.repository }}
           echo ${{ github.ref }}
-          # cd repo
+          cd repo
           branch_name=${GITHUB_REF#refs/heads/}
           git checkout ${branch_name} : repo
 

@@ -24,7 +24,7 @@ jobs:
           echo ${{ github.ref }}
           # cd repo
           branch_name=${GITHUB_REF#refs/heads/}
-          git checkout ${branch_name}
+          git checkout ${branch_name} : repo
 
       - name: Checkout repo
         run: |

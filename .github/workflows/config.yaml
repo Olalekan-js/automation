@@ -22,8 +22,8 @@ jobs:
           git clone https://github.com/${{ github.repository }} repo
           echo ${{ github.repository }}
           echo ${{ github.ref }}
-          cd repo
-          git checkout ${{ github.ref }}
+          # cd repo
+          git checkout ${{ GITHUB_REF#refs/heads/ }}
 
       - name: Checkout repo
         run: |

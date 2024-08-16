@@ -26,4 +26,4 @@ jobs:
 
       - name: List out repo content
         run: |
-          ls -la ./ : repo
+          ls -la

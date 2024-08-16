@@ -3,7 +3,7 @@ name: JavaScript Automation CI
 on:
   push:
     branches:
-      - main
+      - master
   pull_request:
     types: [opened, closed]
 
@@ -21,4 +21,4 @@ jobs:
         run: |
           git clone https://github.com/${{ github.repository }} repo
           echo ${{ github.repository }}
-          echo ${{ github.ref/head }}
+          echo ${{ github.ref }}

@@ -22,4 +22,4 @@ jobs:
           git clone https://github.com/${{ github.repository }} repo
           echo ${{ github.repository }}
           echo ${{ github.ref }}
-          echo "Testing..."
+          ls -la ./

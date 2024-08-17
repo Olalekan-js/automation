@@ -28,6 +28,7 @@ jobs:
         run: |
           cd repo && ls -la
           echo "Hello, World!"
+          echo "Testing..."
 
       - name: List out default variables
         run: env

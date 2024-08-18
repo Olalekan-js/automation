@@ -1,1 +1,1 @@
-## Frontend JavaScript Basics
+## Frontend JavaScript Basics.

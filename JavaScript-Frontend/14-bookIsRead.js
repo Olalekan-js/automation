@@ -9,5 +9,7 @@ const book = {
   },
 };
 
+console.log(book.reading);
+
 book.toggleReadingStatus();
 console.log(book.reading);
